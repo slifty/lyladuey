@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Lyla Duey Paint and Pencil</title>
+		<link rel="stylesheet" href="css/mainStyle.css" type="text/css" />
+		<link rel="stylesheet" href="css/colorbox.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="scripts/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/jquery.colorbox-min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			(function($) {
+				$(function() {
+					$("a[rel='workimages']").colorbox({
+						transition:"none",
+						width:"100%",
+						height:"100%",
+						opacity: 1,
+						fixed: true,
+						centerToWindow: true,
+						title: function() {
+							return $(this).children(".worktitle").html();
+						}
+					});
+				});
+			})(jQuery);
+		</script>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-26700517-1']);
+		  _gaq.push(['_setDomainName', 'lyladuey.com']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+	<body>
+		<div id="content">
+			<div id="headspace">
+				<div id="logo"><a href="index.html"><img src="img/logo.gif" alt="Lyla Duey paint and pencil"></a></div>
+				<div id="navigation">
+					<ul>
+						<li><a href="index.html">Works</a></li>
+						<li><a href="biography.html">Biography</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="events.html">Events</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="mainspace">
+				<div class="worknavigation">
+					<h1>Here You Go</h1>
+					<a href="index.html"> back</a>
+				</div>
+				<div class="workspace">
+					<ol>
+						<li>
+							<a href="img/works/9/1_red_diary.jpg" rel="workimages">
+								<img src="img/works/9/1_red_diary-small.jpg"  alt="Red Diary" />
+								<span class="worktitle">
+									<span class="worktitle">Red Diary</span> <span class="workdate">(2013)</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workmedium">oil on wood</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workdimensions">11" x 15"</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="img/works/9/2_its_just_underwear.jpg" rel="workimages">
+								<img src="img/works/9/2_its_just_underwear-small.jpg"  alt="It's Just Underwear" />
+								<span class="worktitle">
+									<span class="worktitle">It's Just Underwear</span> <span class="workdate">(2013)</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workmedium">oil on wood</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workdimensions">8" x 10"</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="img/works/9/3_bedside_table.jpg" rel="workimages">
+								<img src="img/works/9/3_bedside_table-small.jpg"  alt="Bedside Table" />
+								<span class="worktitle">
+									<span class="worktitle">Bedside Table</span> <span class="workdate">(2013)</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workmedium">oil on wood</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workdimensions">47" x 36"</span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="img/works/9/4_7th_grade_diary.jpg" rel="workimages">
+								<img src="img/works/9/4_7th_grade_diary-small.jpg"  alt="7th Grade Diary" />
+								<span class="worktitle">
+									<span class="worktitle">7th Grade Diary</span> <span class="workdate">(2013)</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workmedium">oil on wood</span>
+									<span class="workspacer">&bull;</span>
+									<span class="workdimensions">6" x 8"</span>
+								</span>
+							</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

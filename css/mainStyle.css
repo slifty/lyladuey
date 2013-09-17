@@ -1,0 +1,155 @@
+/* HTML Elements */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+img {
+	border: 0px;
+}
+
+li {
+	list-style:none;
+}
+
+
+/* Main Space */
+#content {
+	width: 880px;
+	min-height: 680px;
+	margin: 20px auto;
+}
+
+#headspace {
+	height:130px;
+	border-color:#00FF66;
+}
+
+#logo {
+	margin-top:40px;
+	float:left;
+}
+
+/* Navigation */
+#navigation {
+	padding-top: 62px;
+	padding-left:70px;
+	float:left;
+}
+#navigation li {
+	margin-right: 70px;
+	float: left;
+}
+
+
+/* Series Display */
+.seriesnavigation {
+	float: left;
+	padding-top: 15px;
+}
+.seriesnavigation li {
+	margin-bottom:15px;
+}
+
+.seriesspace {
+	margin-left: 190px;
+	padding-left: 20px;
+	margin-right:10px;
+	width:560px;
+	height:480px;
+	overflow:auto;
+}
+
+.seriesspace ol li {
+	list-style: none;
+	float: left;
+	margin: 15px;
+	height: 120px;
+	width: 150px;
+	text-align:center;
+}
+
+.seriesspace img {
+	max-height: 120px;
+	-webkit-box-shadow:5px 5px 5px #222222; 
+	-moz-box-shadow: 5px 5px 5px #222222; 
+	box-shadow:5px 5px 5px #222222; 
+}
+
+
+/* Work Display */
+.worknavigation {
+	padding-left: 30px;
+}
+
+.worknavigation h1 {
+	font-size: 1.3em;
+	margin: 0px;
+	padding: 0px;
+}
+
+.worknavigation a {
+	font-style: italic;
+	font-size: .8em;
+}
+
+.workspace {
+	margin:10px auto;
+	width:690px;
+	padding: 0px 20px;
+	overflow:auto;
+}
+
+.workspace ol li {
+	list-style: none;
+	float: left;
+	margin: 15px;
+	height: 180px;
+	width: 200px;
+	text-align:center;
+}
+
+.workspace img {
+	max-width: 200px;
+	max-height: 180px;
+	-webkit-box-shadow:5px 5px 5px #222222; 
+	-moz-box-shadow: 5px 5px 5px #222222; 
+	box-shadow:5px 5px 5px #222222; 
+}
+
+.workspace .worktitle { display: none; }
+
+.workspacer {
+	font-size: .8em;
+	padding: 0px 5px;
+}
+.worktitle {
+	font-size: .9em;
+}
+.workdate {
+	font-size: .8em;
+	font-weight: normal;
+}
+.workmedium {
+	font-size: .8em;
+	font-weight: normal;
+}
+.workdimensions {
+	font-size: .8em;
+	font-weight: normal;
+}
+.workavailability {
+	font-size: .8em;
+	font-style: italic;
+	font-weight: normal;
+}

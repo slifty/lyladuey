@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#mainspace {
+	font-size: .8em;
+}
+
+h1 {
+	font-size: 1em;
+	font-style: italic;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+div.date {
+	float:left;
+	width:80px;
+}
+
+li {
+	margin-bottom: 10px;
+}

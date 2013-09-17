@@ -1,0 +1,25 @@
+/* CSS Document */
+
+#nav1 {
+ position:relative;
+ left:-3;
+}
+#nav2 {
+ position:relative;
+ left:-3;
+}
+#nav3 {
+ position:relative;
+ left:-3;
+}
+
+div.unselectedTab {
+ position:relative;
+ left:-3;
+}
+
+div.selectedTab {
+ position:relative;
+ left:-3;
+}
+
